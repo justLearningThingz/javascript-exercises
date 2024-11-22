@@ -3,7 +3,6 @@ const removeFromArray = function(array, ...itemsToRemove) {
     for(let i=0; i<array.length; i++){
         if(!itemsToRemove.includes(array[i])) newArray.push(array[i]);
     }
-    console.log(array);
     return newArray;
 };
 
